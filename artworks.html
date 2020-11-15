@@ -8,162 +8,221 @@
     <title>Artworks</title>
 
     <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/artworks.css" />
     <link rel="stylesheet" href="/style.css" />
 
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <h1>His Artworks</h1>
+    <div class="topnav">
+      <a href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a class="active" href="/artworks.html">Artworks</a>
+      <a href="/fame.html">Fame</a>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
 
-    <p>-<a href="/index.html">Homepage</a></p>
-    <p>-<a href="/about.html">About</a></p>
-    <p>- <a href="/fame.html">Fame</a></p>
+    <div style="padding-left:16px">
+      <div style="padding-right:16px">
+        <h1>
+          <p style="color: black;" />
+          His Artworks
+        </h1>
 
-    <hr />
+<!--        <p>-<a href="#artwork1">Artwork #1</a></p>
+        <p>-<a href="#artwork2">Artwork #2</a></p>
+        <p>-<a href="#artwork3">Artwork #3</a></p>
+        <p>-<a href="#artwork4">Artwork #4</a></p>
+        <p>-<a href="#artwork5">Artwork #5</a></p>
+        <p>-<a href="#artwork6">Artwork #6</a></p> -->
 
-    <p>-<a href="#artwork1">Artwork #1</a></p>
-    <p>-<a href="#artwork2">Artwork #2</a></p>
-    <p>-<a href="#artwork3">Artwork #3</a></p>
-    <p>-<a href="#artwork4">Artwork #4</a></p>
-    <p>-<a href="#artwork5">Artwork #5</a></p>
-    <p>-<a href="#artwork6">Artwork #6</a></p>
+        <div class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h2>2017</h2>
+<!--              <div id="artwork6"><h2>Artwork #6</h2></div> -->
 
-    <div id="artwork1"><h2>Artwork #1</h2></div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                in turpis tortor. Donec nec enim posuere, pharetra quam ut,
+                auctor nulla. Phasellus at placerat felis. Phasellus dui enim,
+                ultrices eget pulvinar a, commodo a ipsum. Curabitur iaculis
+                mollis nisi, eu tincidunt velit varius ac. Sed bibendum
+                tincidunt lacinia. Phasellus congue est metus, et vestibulum
+                felis pretium sed. Nullam quis sapien molestie, venenatis lacus
+                in, ornare purus. Proin maximus, nibh eget fermentum rhoncus,
+                justo tortor cursus nibh, id egestas ex ante sed mi.
+                Pellentesque consequat dolor dui, sit amet fermentum diam congue
+                quis. Nam suscipit quam tincidunt pharetra venenatis. Nunc et
+                lorem non nisi cursus vestibulum. Aliquam a turpis at massa
+                maximus egestas et ut quam.
+              </p>
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in turpis
-      tortor. Donec nec enim posuere, pharetra quam ut, auctor nulla. Phasellus
-      at placerat felis. Phasellus dui enim, ultrices eget pulvinar a, commodo a
-      ipsum. Curabitur iaculis mollis nisi, eu tincidunt velit varius ac. Sed
-      bibendum tincidunt lacinia. Phasellus congue est metus, et vestibulum
-      felis pretium sed. Nullam quis sapien molestie, venenatis lacus in, ornare
-      purus. Proin maximus, nibh eget fermentum rhoncus, justo tortor cursus
-      nibh, id egestas ex ante sed mi. Pellentesque consequat dolor dui, sit
-      amet fermentum diam congue quis. Nam suscipit quam tincidunt pharetra
-      venenatis. Nunc et lorem non nisi cursus vestibulum. Aliquam a turpis at
-      massa maximus egestas et ut quam.
-    </p>
+              <button type="button">
+                <a href="/year.html">More Artworks in year #_</a>
+              </button>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2>2016</h2>
+             <!-- <div id="artwork5"><h2>Artwork #5</h2></div> -->
 
-    <button type="button">
-      <a href="/awinfo.html">More info</a>
-    </button>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                in turpis tortor. Donec nec enim posuere, pharetra quam ut,
+                auctor nulla. Phasellus at placerat felis. Phasellus dui enim,
+                ultrices eget pulvinar a, commodo a ipsum. Curabitur iaculis
+                mollis nisi, eu tincidunt velit varius ac. Sed bibendum
+                tincidunt lacinia. Phasellus congue est metus, et vestibulum
+                felis pretium sed. Nullam quis sapien molestie, venenatis lacus
+                in, ornare purus. Proin maximus, nibh eget fermentum rhoncus,
+                justo tortor cursus nibh, id egestas ex ante sed mi.
+                Pellentesque consequat dolor dui, sit amet fermentum diam congue
+                quis. Nam suscipit quam tincidunt pharetra venenatis. Nunc et
+                lorem non nisi cursus vestibulum. Aliquam a turpis at massa
+                maximus egestas et ut quam.
+              </p>
 
-    <div id="artwork2"><h2>Artwork #2</h2></div>
+              <button type="button">
+                <a href="/year.html">More Artworks in year #_</a>
+              </button>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h2>2015</h2>
+            <!--  <div id="artwork4"><h2>Artwork #4</h2></div> -->
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in turpis
-      tortor. Donec nec enim posuere, pharetra quam ut, auctor nulla. Phasellus
-      at placerat felis. Phasellus dui enim, ultrices eget pulvinar a, commodo a
-      ipsum. Curabitur iaculis mollis nisi, eu tincidunt velit varius ac. Sed
-      bibendum tincidunt lacinia. Phasellus congue est metus, et vestibulum
-      felis pretium sed. Nullam quis sapien molestie, venenatis lacus in, ornare
-      purus. Proin maximus, nibh eget fermentum rhoncus, justo tortor cursus
-      nibh, id egestas ex ante sed mi. Pellentesque consequat dolor dui, sit
-      amet fermentum diam congue quis. Nam suscipit quam tincidunt pharetra
-      venenatis. Nunc et lorem non nisi cursus vestibulum. Aliquam a turpis at
-      massa maximus egestas et ut quam.
-    </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                in turpis tortor. Donec nec enim posuere, pharetra quam ut,
+                auctor nulla. Phasellus at placerat felis. Phasellus dui enim,
+                ultrices eget pulvinar a, commodo a ipsum. Curabitur iaculis
+                mollis nisi, eu tincidunt velit varius ac. Sed bibendum
+                tincidunt lacinia. Phasellus congue est metus, et vestibulum
+                felis pretium sed. Nullam quis sapien molestie, venenatis lacus
+                in, ornare purus. Proin maximus, nibh eget fermentum rhoncus,
+                justo tortor cursus nibh, id egestas ex ante sed mi.
+                Pellentesque consequat dolor dui, sit amet fermentum diam congue
+                quis. Nam suscipit quam tincidunt pharetra venenatis. Nunc et
+                lorem non nisi cursus vestibulum. Aliquam a turpis at massa
+                maximus egestas et ut quam.
+              </p>
 
-    <button type="button">
-      <a href="/awinfo.html">More info</a>
-    </button>
+              <button type="button">
+                <a href="/year.html">More Artworks in year #_</a>
+              </button>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2>2012</h2>
+         <!--     <div id="artwork3"><h2>Artwork #3</h2></div>  -->
 
-    <div id="artwork3"><h2>Artwork #3</h2></div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                in turpis tortor. Donec nec enim posuere, pharetra quam ut,
+                auctor nulla. Phasellus at placerat felis. Phasellus dui enim,
+                ultrices eget pulvinar a, commodo a ipsum. Curabitur iaculis
+                mollis nisi, eu tincidunt velit varius ac. Sed bibendum
+                tincidunt lacinia. Phasellus congue est metus, et vestibulum
+                felis pretium sed. Nullam quis sapien molestie, venenatis lacus
+                in, ornare purus. Proin maximus, nibh eget fermentum rhoncus,
+                justo tortor cursus nibh, id egestas ex ante sed mi.
+                Pellentesque consequat dolor dui, sit amet fermentum diam congue
+                quis. Nam suscipit quam tincidunt pharetra venenatis. Nunc et
+                lorem non nisi cursus vestibulum. Aliquam a turpis at massa
+                maximus egestas et ut quam.
+              </p>
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in turpis
-      tortor. Donec nec enim posuere, pharetra quam ut, auctor nulla. Phasellus
-      at placerat felis. Phasellus dui enim, ultrices eget pulvinar a, commodo a
-      ipsum. Curabitur iaculis mollis nisi, eu tincidunt velit varius ac. Sed
-      bibendum tincidunt lacinia. Phasellus congue est metus, et vestibulum
-      felis pretium sed. Nullam quis sapien molestie, venenatis lacus in, ornare
-      purus. Proin maximus, nibh eget fermentum rhoncus, justo tortor cursus
-      nibh, id egestas ex ante sed mi. Pellentesque consequat dolor dui, sit
-      amet fermentum diam congue quis. Nam suscipit quam tincidunt pharetra
-      venenatis. Nunc et lorem non nisi cursus vestibulum. Aliquam a turpis at
-      massa maximus egestas et ut quam.
-    </p>
+              <button type="button">
+                <a href="/year.html">More Artworks in year #_</a>
+              </button>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h2>2011</h2>
+           <!--   <div id="artwork2"><h2>Artwork #2</h2></div> -->
 
-    <button type="button">
-      <a href="/awinfo.html">More info</a>
-    </button>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                in turpis tortor. Donec nec enim posuere, pharetra quam ut,
+                auctor nulla. Phasellus at placerat felis. Phasellus dui enim,
+                ultrices eget pulvinar a, commodo a ipsum. Curabitur iaculis
+                mollis nisi, eu tincidunt velit varius ac. Sed bibendum
+                tincidunt lacinia. Phasellus congue est metus, et vestibulum
+                felis pretium sed. Nullam quis sapien molestie, venenatis lacus
+                in, ornare purus. Proin maximus, nibh eget fermentum rhoncus,
+                justo tortor cursus nibh, id egestas ex ante sed mi.
+                Pellentesque consequat dolor dui, sit amet fermentum diam congue
+                quis. Nam suscipit quam tincidunt pharetra venenatis. Nunc et
+                lorem non nisi cursus vestibulum. Aliquam a turpis at massa
+                maximus egestas et ut quam.
+              </p>
 
-    <div id="artwork4"><h2>Artwork #4</h2></div>
+              <button type="button">
+                <a href="/year.html">More Artworks in year #_</a>
+              </button>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2>2007</h2>
+        <!--      <div id="artwork1"><h2>Artwork #1</h2></div> -->
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in turpis
-      tortor. Donec nec enim posuere, pharetra quam ut, auctor nulla. Phasellus
-      at placerat felis. Phasellus dui enim, ultrices eget pulvinar a, commodo a
-      ipsum. Curabitur iaculis mollis nisi, eu tincidunt velit varius ac. Sed
-      bibendum tincidunt lacinia. Phasellus congue est metus, et vestibulum
-      felis pretium sed. Nullam quis sapien molestie, venenatis lacus in, ornare
-      purus. Proin maximus, nibh eget fermentum rhoncus, justo tortor cursus
-      nibh, id egestas ex ante sed mi. Pellentesque consequat dolor dui, sit
-      amet fermentum diam congue quis. Nam suscipit quam tincidunt pharetra
-      venenatis. Nunc et lorem non nisi cursus vestibulum. Aliquam a turpis at
-      massa maximus egestas et ut quam.
-    </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                in turpis tortor. Donec nec enim posuere, pharetra quam ut,
+                auctor nulla. Phasellus at placerat felis. Phasellus dui enim,
+                ultrices eget pulvinar a, commodo a ipsum. Curabitur iaculis
+                mollis nisi, eu tincidunt velit varius ac. Sed bibendum
+                tincidunt lacinia. Phasellus congue est metus, et vestibulum
+                felis pretium sed. Nullam quis sapien molestie, venenatis lacus
+                in, ornare purus. Proin maximus, nibh eget fermentum rhoncus,
+                justo tortor cursus nibh, id egestas ex ante sed mi.
+                Pellentesque consequat dolor dui, sit amet fermentum diam congue
+                quis. Nam suscipit quam tincidunt pharetra venenatis. Nunc et
+                lorem non nisi cursus vestibulum. Aliquam a turpis at massa
+                maximus egestas et ut quam.
+              </p>
 
-    <button type="button">
-      <a href="/awinfo.html">More info</a>
-    </button>
+              <button type="button">
+                <a href="/year.html">More Artworks in year #_</a>
+              </button>
+            </div>
+          </div>
+        </div>
 
-    <div id="artwork5"><h2>Artwork #5</h2></div>
+        <hr />
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in turpis
-      tortor. Donec nec enim posuere, pharetra quam ut, auctor nulla. Phasellus
-      at placerat felis. Phasellus dui enim, ultrices eget pulvinar a, commodo a
-      ipsum. Curabitur iaculis mollis nisi, eu tincidunt velit varius ac. Sed
-      bibendum tincidunt lacinia. Phasellus congue est metus, et vestibulum
-      felis pretium sed. Nullam quis sapien molestie, venenatis lacus in, ornare
-      purus. Proin maximus, nibh eget fermentum rhoncus, justo tortor cursus
-      nibh, id egestas ex ante sed mi. Pellentesque consequat dolor dui, sit
-      amet fermentum diam congue quis. Nam suscipit quam tincidunt pharetra
-      venenatis. Nunc et lorem non nisi cursus vestibulum. Aliquam a turpis at
-      massa maximus egestas et ut quam.
-    </p>
+        <h4>
+          Follow us on social media!
+        </h4>
 
-    <button type="button">
-      <a href="/awinfo.html">More info</a>
-    </button>
-
-    <div id="artwork6"><h2>Artwork #6</h2></div>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in turpis
-      tortor. Donec nec enim posuere, pharetra quam ut, auctor nulla. Phasellus
-      at placerat felis. Phasellus dui enim, ultrices eget pulvinar a, commodo a
-      ipsum. Curabitur iaculis mollis nisi, eu tincidunt velit varius ac. Sed
-      bibendum tincidunt lacinia. Phasellus congue est metus, et vestibulum
-      felis pretium sed. Nullam quis sapien molestie, venenatis lacus in, ornare
-      purus. Proin maximus, nibh eget fermentum rhoncus, justo tortor cursus
-      nibh, id egestas ex ante sed mi. Pellentesque consequat dolor dui, sit
-      amet fermentum diam congue quis. Nam suscipit quam tincidunt pharetra
-      venenatis. Nunc et lorem non nisi cursus vestibulum. Aliquam a turpis at
-      massa maximus egestas et ut quam.
-    </p>
-
-    <button type="button">
-      <a href="/awinfo.html">More info</a>
-    </button>
-
-    <hr />
-
-    <h4>
-      Follow us on social media!
-    </h4>
-
-    <button type="button">
-      <a href="https://www.instagram.com/" target="_blank"> Instagram</a>
-    </button>
-    <button type="button">
-      <a href="https://www.facebook.com/" target="_blank"> Facebook</a>
-    </button>
-    <button type="button">
-      <a href="https://twitter.com/home" target="_blank"> Twitter</a>
-    </button>
+        <button type="button">
+          <a href="https://www.instagram.com/" target="_blank"> Instagram</a>
+        </button>
+        <button type="button">
+          <a href="https://www.facebook.com/" target="_blank"> Facebook</a>
+        </button>
+        <button type="button">
+          <a href="https://twitter.com/home" target="_blank"> Twitter</a>
+        </button>
+      </div>
+    </div>
 
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->

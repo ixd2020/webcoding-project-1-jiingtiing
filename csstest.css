@@ -1,0 +1,83 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 2em;
+  background-image: url("https://cdn.glitch.com/dec5aa42-d940-4c67-a141-965533823236%2F21742619125_f9672a76b9.jpg?v=1605066052559");
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  padding: 50px;
+  font-size: 20px;
+  height: 200px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.redbox {
+  background-color: red;
+  overflow: auto;
+}
+
+.greenbox {
+  background-color: green;
+  color: white;
+  border: 5px solid lightgreen;
+}
+
+.bluebox {
+  background-color: blue;
+  border: 5px dotted lightblue;
+}
+
+.yellowbox {
+  background-color: yellow;
+  border: 5px dashed hotpink;
+}
+
+.threecol {
+  width: 33.33%;
+}
+
+.twocol {
+  width: 50%;
+}
+
+.onecol {
+  width: 100%;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: lightblue;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
