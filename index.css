@@ -1,0 +1,35 @@
+.img2 {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.box1 {
+  opacity: 0.5;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.whitebox {
+  background-color: white;
+  overflow: auto;
+
+}
+
+.fourcol {
+  width: 25%;
+}
+

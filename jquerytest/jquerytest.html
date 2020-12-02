@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/jquerytest/jquery.js" defer></script>
+
+    <script>
+      $(document).ready(function() {
+        $("button").click(function() {
+          $("h1, h2, p").addClass("blue");
+          $("div").addClass("important");
+        });
+      });
+    </script>
+    <style>
+      .important {
+        font-weight: bold;
+        font-size: xx-large;
+      }
+
+      .blue {
+        color: blue;
+      }
+    </style>
+
+    <script>
+      $(document).ready(function() {
+        $("button").click(function() {
+          $("#div1").fadeIn();
+          $("#div2").fadeIn("slow");
+          $("#div3").fadeIn(3000);
+        });
+      });
+    </script>
+  </head>
+</html>
+
+<h2>This is a heading</h2>
+
+<p style="background-color:#ff0000">This is a paragraph.</p>
+<p style="background-color:#00ff00">This is a paragraph.</p>
+<p style="background-color:#0000ff">This is a paragraph.</p>
+
+<p>This is a paragraph.</p>
+
+<button>Set background-color of p</button>
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<div>This is some important text!</div>
+<br />
+
+<button>Add classes to elements</button>
+
+<p>Demonstrate fadeIn() with different parameters.</p>
+
+<button>Click to fade in boxes</button><br><br>
+
+<div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+<div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+<div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
