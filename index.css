@@ -6,30 +6,66 @@
 * {
   box-sizing: border-box;
 }
-
-.box {
-  float: left;
-  padding: 50px;
-  font-size: 20px;
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
 }
 
-.box1 {
-  opacity: 0.5;
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+/* Number text (1/4 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-.whitebox {
-  background-color: white;
-  overflow: auto;
-
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-.fourcol {
-  width: 25%;
+.active {
+  background-color: #717171;
 }
 
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

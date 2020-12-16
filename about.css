@@ -13,3 +13,25 @@ td {
   padding: 5px;
   text-align: left;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#panel,
+#flip {
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: solid 1px #c3c3c3;
+  cursor: pointer;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
